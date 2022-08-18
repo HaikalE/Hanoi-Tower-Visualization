@@ -68,7 +68,7 @@ void input(int &tower_a,int &tower_b,int &tower_c,vector<string>&a,vector<string
   getline(cin,dari);
   if (dari.length()!=1) {
     system("cls");
-    if (langkah==1)  {
+    if (langkah==0||langkah==1)  {
       tampilkan(a,b,c,tower_a,tower_b,tower_c);
       goto input_1;}
     cout<<"You get wrong input let's try out !\n";
